@@ -1,0 +1,51 @@
+Algo chek point Algo 1 
+
+VAR
+
+var count = 0;
+
+var vowels = " a e i o u "
+
+x:" Donner le nombre du depart"
+
+i :integer;
+
+sentence
+
+BEGIN 
+
+Read (x);
+
+FOR (i =0;i<sentence.length;i++)
+If (sentence.chartAt(i) == '') {
+    count ++
+}
+
+END-FOR
+
+Write(count);
+
+End
+
+FOR (i=0;i<x.length;i++)
+
+{
+    IF (x.chartAt(i) == ''){
+        count ++
+    }
+}
+
+END_FOR 
+
+Write(count);
+
+End
+
+FOR (i = 0;i<x.length;i++){
+    IF vowels .index of(x[i])
+    count ++
+}
+
+Write(count);
+
+End
